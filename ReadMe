@@ -1,0 +1,20 @@
+#Wifi SSID must be "IOT_ICE"
+
+#Wifi Password must be "iot4321iu"
+
+#server machine IP address must be 192.168.0.101
+
+#Copy experiment file inside your local server file named "dashboard"
+
+#create mysql user named "rango" with no password , host name "localhost" and give all privileges
+
+#create mysql database named "SAICEseminar"
+     then create two tables on this databse "SAICEseminar"using Mysql or phpmyadmin
+	1. Table name "moisture"
+		column1 index -> "moistureValue" , data type -> int(11)
+		column2 index -> "time" , data type -> double -> Primary Key
+	2. Table name "angle"
+		column1 index -> "time" , data type -> double -> Primary Key
+		column2 index -> "angle" , data type -> smallint(6)
+
+
